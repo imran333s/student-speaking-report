@@ -1,0 +1,145 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+}
+
+.page {
+  max-width: 900px;
+  margin: 30px auto;
+  background: #fff;
+  padding: 30px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 15px;
+}
+
+.date {
+  color: #777;
+  font-size: 14px;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+  color: #00a8e8;
+}
+
+.section-title {
+  margin: 25px 0 15px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 8px;
+}
+
+.summary {
+  display: flex;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+/* SCORE CARD CONTAINER */
+.score-card {
+  width: 190px;
+  background: #7bb82e;
+  color: white;
+  border-radius: 0 0 120px 120px;
+  overflow: hidden;
+  text-align: center;
+}
+
+/* TOP HEADER */
+.score-header {
+  background: #00a8e8;
+  padding: 8px;
+  font-weight: bold;
+}
+
+/* U-SHAPE BODY */
+.score-body {
+  height: 160px;
+  width: 164px;;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+  font-weight: bold;
+  position: relative;
+}
+
+/* SMALL /9 TEXT */
+.score-body small {
+  font-size: 22px;
+  margin-left: 4px;
+  font-size: 48px;
+}
+
+
+/* SKILLS */
+.skills {
+  flex: 1;
+}
+
+.skill-row {
+  margin-bottom: 18px;
+}
+
+.skill-label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.skill-bar {
+  height: 8px;
+  background: #e0e0e0;
+  border-radius: 4px;
+}
+
+.skill-fill {
+  height: 100%;
+  border-radius: 4px;
+}
+
+/* FEEDBACK */
+.feedback {
+  margin-top: 30px;
+  padding: 15px;
+  background: #f7f9fc;
+  border-left: 4px solid #00a8e8;
+}
+
+
+.feedback-section {
+  margin-top: 40px;
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
+
+.feedback-item {
+  margin-bottom: 20px;
+}
+
+.feedback-item strong {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.feedback-item p {
+  margin: 0;
+  color: #333;
+  line-height: 1.5;
+}
+.top-title {
+  text-align: center;
+  font-size: 22px;
+  line-height: 32px;
+  /* font-weight: 500; */
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #ddd;
+  color: #333;
+}
