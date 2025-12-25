@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SpeechAce Speaking Assessment Report – Frontend Assignment
 
 ## About the Project
@@ -123,3 +124,6 @@ You can learn more in the
 
 To learn React, check out the  
 [React documentation](https://reactjs.org/).
+=======
+# student-speaking-report
+>>>>>>> 24104aa99ce3add513a756b7481ae0a3a3ea37cd
